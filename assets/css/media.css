@@ -1,0 +1,918 @@
+@media (max-width: 1680px) {}
+
+@media (max-width: 1340px) {
+
+    .action {
+        left: -15px;
+        z-index: 9;
+        width: auto;
+    }
+
+    .action ul {
+        float: left;
+    }
+
+    .masonry-left-top img {
+        width: 225px;
+        height: 240px;
+    }
+
+    .masonry-left-bottom img {
+        width: 225px;
+        height: 340px;
+    }
+
+    .masonry-right-top img {
+        width: 225px;
+        height: 340px;
+    }
+
+    .masonry-right-bottom img {
+        width: 225px;
+        height: 240px;
+    }
+
+    .delete-msg ul.dropdown-menu {
+        left: -145px;
+    }
+
+    .delete-msg {
+        margin: -30px 10px;
+    }
+}
+
+
+@media (max-width: 1220px) {
+    .search-bar {
+        width: 38%;
+    }
+
+    .site-header li.user.user-menu a {
+        padding: 4px 5px;
+    }
+
+    .navbar-form {
+        padding: 0;
+    }
+
+    .nav--logo img {
+        padding: 10px 10px 0;
+        width: 160px;
+    }
+
+    .post-wrap_bottom a {
+        padding: 0;
+    }
+
+    #frame #sidepanel {
+        width: 35%;
+    }
+
+    .form-horizontal input#date {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .search-bar {
+        width: 33%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .search-bar {
+        width: 30%;
+    }
+
+    .form-horizontal label {
+        line-height: 19px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: initial;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    .site-header .navbar-form .input-group {
+        display: flex;
+    }
+
+
+    .site-header .navbar-default {
+        padding: 5px 0;
+    }
+
+    .navbar-header {
+        max-height: 60px;
+    }
+
+    .navbar-default .navbar-toggle {
+        padding: 10px 10px 0;
+    }
+
+    .navbar-form {
+        padding: 10px 15px;
+        border-top: 0;
+        border-bottom: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div#bs-example-navbar-collapse-1 {
+        position: absolute;
+        background-color: #003561;
+        top: 75px;
+        z-index: 9999;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .site-header .navbar-nav {
+        float: left;
+        margin: 0;
+        width: 100%;
+    }
+
+    .site-header ul.nav.navbar-nav li a {
+        font-size: 15px;
+        line-height: 35px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .site-header .nav.navbar-nav li a.post {
+        width: 100%;
+        margin: 10px 0 20px;
+    }
+
+    .site-header li.user.user-menu a {
+        padding: 0 0 15px 0px;
+    }
+
+    .site-header .navbar .nav > li > a > .label {
+        top: 5px;
+        left: 25px;
+    }
+
+
+    .site-header .navbar-nav > .header-menu > .dropdown-menu,
+    .site-header ul.dropdown-menu.setting-menu {
+        width: 100%;
+        padding: 0 0 0 0;
+        top: 110%;
+        left: 0;
+    }
+
+    .modities_modal #modalLabel,
+    .modities_modal #modalLabel2 {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 10px;
+    }
+
+    .post-image {
+        background-size: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .post-text {
+        background-size: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    #post_modal .modal-body {
+        padding: 0 15px;
+    }
+
+    ul.menu {
+        background-color: white;
+    }
+
+    li.footer {
+        background-color: white;
+        border-radius: 8px;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    ul.dropdown-menu.notification-menu {
+        min-width: 100%;
+        left: 0 !important;
+    }
+
+    .site-header ul.dropdown-menu:after {
+        left: 20px !important;
+    }
+
+    .modities_modal button.close {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 10px;
+        left: 10px;
+    }
+
+    #edit-modal #modalLabel,
+    #edit-modal #modalLabel2 {
+        font-size: 24px;
+        line-height: 40px;
+        padding: 30px 0 0;
+    }
+
+    button.Done {
+        width: 80px;
+        height: 45px;
+        font-size: 18px;
+        line-height: 35px;
+        right: 10px;
+        top: 5px;
+    }
+
+    .modal-content {
+        border-radius: 15px;
+    }
+
+    .My-profile {
+        padding: 30px 0;
+    }
+
+    .logoContainer {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+    }
+
+    .fileContainer {
+        right: 15px;
+        bottom: 50px;
+    }
+
+    .fileContainer img {
+        width: 45px;
+    }
+
+    .user-name {
+        font-size: 28px;
+        padding: 15px 0;
+    }
+
+    .user-title {
+        font-size: 18px;
+    }
+
+    .user-status ul {
+        margin: 15px 0;
+    }
+
+    .user-status ul li {
+        padding: 20px 30px 20px 0;
+    }
+
+    .user-status li span {
+        font-size: 18px;
+    }
+
+    .user-status li h3 {
+        font-size: 18px;
+    }
+
+    #Tab ul.nav-pills li a {
+        min-width: 65px;
+    }
+
+    #Tab ul.nav-pills li.active a {
+        min-width: 65px;
+    }
+
+    .logoContainer .follow {
+        margin: 10px auto;
+    }
+
+    .following {
+        margin: auto;
+        width: 120px;
+        height: 50px;
+    }
+
+    .follow-modal .media-heading {
+        font-size: 20px;
+    }
+
+    .follow-modal .media-body p {
+        font-size: 18px;
+    }
+
+    .post-logoContainer {
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+    }
+
+    .xs-flex {
+        margin: 10px 0;
+    }
+
+    .masonry-left-top {
+        text-align: center;
+    }
+
+    .masonry-left-bottom {
+        text-align: center;
+    }
+
+    .masonry-right-bottom {
+        text-align: center;
+    }
+
+    .masonry-right-top {
+        text-align: center;
+    }
+
+    .masonry-left-top img {
+        width: 260px;
+        height: 285px;
+    }
+
+    .masonry-left-bottom img {
+        width: 265px;
+        height: 400px;
+    }
+
+    .masonry-right-top img {
+        width: 265px;
+        height: 400px;
+    }
+
+    .masonry-right-bottom img {
+        width: 260px;
+        height: 285px;
+    }
+
+    .masonry-left-top,
+    .masonry-left-bottom,
+    .masonry-right-bottom,
+    .masonry-right-top {
+        justify-content: center;
+    }
+
+    #frame #sidepanel {
+        width: 50%;
+    }
+
+    #frame .content {
+        width: 50%;
+    }
+
+    #frame .content .messages ul li p {
+        max-width: 250px;
+    }
+
+    #frame .content .message-input .wrap .attachment {
+        right: 100px;
+        top: 15px;
+    }
+
+    #frame .content .message-input .wrap i.fa.fa-smile-o {
+        right: 60px;
+        top: 15px;
+    }
+
+    #frame .content .message-input .wrap button {
+        width: 46px;
+        height: 46px;
+        font-size: 18px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    .upload-picture {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .upload-profile-wrap {
+        border-radius: 10px;
+    }
+
+    .post-text-bg {
+        margin: 10px;
+        padding: 20px 15px;
+    }
+
+    .post-text-content {
+        padding: 15px 0;
+    }
+
+    .upload-device-img {
+        border-right: 0;
+    }
+
+    h2.img-title {
+        font-size: 18px;
+        margin: 0;
+        padding: 15px 0 30px;
+    }
+
+    .serach-content {
+        left: 20px;
+        right: 20px;
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .serach-content .nav-justified > li {
+        float: left;
+    }
+
+    .serach-content ul li a {
+        font-size: 15px;
+        padding: 9px !important;
+    }
+
+    .serach-content .nav-justified > li > a {
+        margin-bottom: 0px;
+    }
+
+
+    #frame #sidepanel {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #frame #sidepanel #contacts {
+        height: calc(100% - 149px);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    #frame #sidepanel #contacts::-webkit-scrollbar {
+        display: none;
+    }
+
+    #frame #sidepanel #contacts ul li.contact .wrap img {
+        margin-left: 10px;
+    }
+
+    #frame .content {
+        display: none;
+    }
+
+    #frame #sidepanel #contacts ul li.contact {
+        width: 100%;
+    }
+
+
+
+    .newsfeeds-media-bg {
+        width: 45px;
+        height: 45px;
+    }
+
+    .gender-prefrence-wrap {
+        padding: 30px 0;
+    }
+
+    .gender-selection img {
+        margin: 15px 0;
+    }
+
+    .page-title h2 {
+        font-size: 28px;
+    }
+
+    .page-title span {
+        font-size: 18px;
+    }
+
+    .next-step h4 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px;
+    }
+
+    .newsfeeds-container {
+        margin: 10px;
+    }
+
+    .newsfeeds_top .media-body {
+        padding: 0px;
+    }
+
+    .media-left-wrap .media-heading {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+
+    .media-right-wrap .media-heading {
+        font-size: 12px;
+    }
+
+    .media-right-wrap .status {
+        font-size: 12px;
+        line-height: 36px;
+        padding: 8px 15px;
+    }
+
+    .newsfeeds-user-img {
+        height: 250px;
+        margin: 30px 0;
+    }
+
+    .newsfeeds_bottom {
+        padding: 20px 0;
+        margin: 30px 0;
+    }
+
+    .newsfeeds_bottom a {
+        margin: 0px 20px 0 0;
+    }
+
+    .comment-action a {
+        margin: 0 10px 0 0;
+    }
+
+    img.dropdown-report {
+        width: 20px;
+        height: 20px;
+    }
+
+    form.change-password .form-group {
+        padding: 0;
+    }
+
+    .account-wrap {
+        padding: 40px 0;
+    }
+
+    .account-setting {
+        padding: 10px;
+        margin: 0 10px;
+    }
+
+    .account-title h4 {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .account-action {
+        margin: 0;
+    }
+
+    .package1 {
+        padding: 10px;
+    }
+
+    .package2 {
+        padding: 10px;
+    }
+
+    .site-header .navbar-form .input-group {
+        display: table;
+    }
+
+    .post-image h2,
+    .post-text h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .site-header ul.dropdown-menu:after {
+        top: 40px !important;
+        left: 20px !important;
+    }
+
+    .site-header ul.dropdown-menu.notification-menu:after {
+        top: 28px !important;
+        left: 10px !important;
+    }
+
+    ul.dropdown-menu.notification-menu {
+        background-color: #fff !important;
+    }
+
+    ul.dropdown-menu.notification-menu li.header {
+        font-size: 20px;
+        padding: 18px;
+    }
+
+    .notification-wrap .media {
+        white-space: normal;
+    }
+
+    .notification-wrap .media-left {
+        display: block;
+    }
+
+    .notification-wrap .media-body {
+        display: block;
+    }
+
+    .notification-wrap .media img {
+        width: 50px !important;
+    }
+
+    ul.dropdown-menu.notification-menu li.footer a {
+        font-size: 18px !important;
+        line-height: 35px !important;
+        color: #0074e1 !important;
+        padding: 5px;
+    }
+
+    .notification-wrap .media-right a.follow {
+        margin: 0;
+    }
+
+    .notification-wrap .media-right {
+        padding-left: 0;
+    }
+
+    .modal-bg:before {
+        background-size: 100px;
+        border-radius: 15px;
+    }
+
+    .modal-bg {
+        padding: 15px;
+    }
+
+    span.form-title {
+        font-size: 24px;
+    }
+
+    span.form-sub_title {
+        font-size: 24px;
+        padding: 25px 0;
+    }
+
+    .form_style label {
+        font-size: 18px;
+    }
+
+    .remember_forget label {
+        font-size: 18px;
+    }
+
+    ul.login-type li a.facebook {
+        font-size: 24px;
+        padding: 5px 30px;
+    }
+
+    ul.login-type li a.twitter,
+    ul.login-type li a.instagram {
+        font-size: 24px;
+        padding: 5px 25px;
+    }
+
+    ul.login-type li {
+        margin: 5px;
+    }
+
+    .modal-dialog {
+        width: auto !important;
+        margin: 75px 5px !important;
+    }
+
+    #forget-pswd .forget-form .form-group {
+        margin: 30px 0;
+    }
+
+    #forget-pswd .modal-bg {
+        padding: 10px;
+    }
+
+    .modal-header .close {
+        margin: -5px;
+    }
+
+    .modal-header {
+        padding: 15px;
+        right: -5px;
+        top: -20px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .edit-heading h2 {
+        font-size: 24px;
+        margin: 15px 0;
+    }
+
+    .message {
+        width: 90px;
+        height: 40px;
+        font-size: 15px;
+        margin: 20px 10px 20px 0;
+    }
+
+    .block {
+        width: 85px;
+        height: 40px;
+        font-size: 16px;
+        margin: 20px 10px 20px 0;
+    }
+
+    .report {
+        width: 85px;
+        height: 40px;
+        font-size: 16px;
+        margin: 20px 10px 20px 0;
+    }
+
+    .body-title {
+        font-size: 24px;
+        padding: 15px 0;
+    }
+
+    .modal-body .avatar {
+        margin-bottom: 30px;
+    }
+
+    .block-otheruser {
+        width: 110px;
+        height: 50px;
+        margin: 0px;
+    }
+
+    .cancel-otheruser {
+        width: 110px;
+        height: 50px;
+        margin: 10px;
+    }
+
+    .other-profile_action {
+        margin: 0px;
+    }
+
+    .body-sub-title {
+        font-size: 24px;
+        padding: 15px 0;
+    }
+
+    .follow-modal .media-body,
+    .follow-modal .media-left,
+    .follow-modal .media-right {
+        display: block;
+    }
+
+    .follow-modal .media-bg {
+        width: 80px;
+        height: 80px;
+        margin: 15px auto;
+    }
+
+    .follow-modal .media-heading {
+        text-align: center;
+    }
+
+    .follow-modal .media-body p {
+        text-align: center;
+    }
+
+    .edit-profile-bg {
+        padding: 10px 0;
+    }
+
+    .profile-title h2 {
+        font-size: 28px;
+        line-height: 19px;
+    }
+
+    .profile-sub_title h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .start_end-date {
+        padding: 5px 0;
+    }
+
+    .about-title h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin: 0px;
+    }
+
+    .about-sub_title h2 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .about-content.sub_title h2 {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 10px;
+    }
+
+    .about-content-title h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 10px;
+    }
+
+    .terms-heading h2 {
+        font-size: 20px;
+    }
+
+    #post-specific-Tab ul.nav-pills li.active a {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #post-specific-Tab ul.nav-pills li a {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #post-specific-Tab ul.nav.nav-pills > li {
+        margin: 3px;
+    }
+
+    .form-post {
+        padding: 15px;
+    }
+
+    select#post,
+    select#package {
+        min-width: 265px;
+        margin: 0;
+    }
+
+    .form-post .icon i {
+        top: -35px;
+        right: -120px;
+    }
+
+    .cancel-post {
+        width: 110px;
+        height: 50px;
+    }
+
+    .report-post {
+        width: 110px;
+        height: 50px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .site-header .navbar-form .input-group {
+        display: flex;
+    }
+
+    #post_modal .modal-dialog {
+        margin: 130px auto;
+    }
+
+    .modal-sm {
+        width: 480px;
+    }
+
+}
+
+.post-wrap_bottom a {
+    margin: 0px 15px 0;
+}
+
+.footer-left {
+    padding: 0px 10px;
+}

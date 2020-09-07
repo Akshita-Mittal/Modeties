@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modities</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/media.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <nav class="navbar navbar-default">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <div class="" onclick="myFunction(this)">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                            </div>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <div class="nav--logo"><img src="assets/images/logo.png" alt="logo" /></div>
+                        </a>
+                    </div>
+                    <div class="search-bar col-sm-3 col-md-5">
+                        <form class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="myInput" onkeyup="sFunction()" placeholder="Search Here...">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default search" type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="serach-content" style="display: none">
+                            <ul id="myTabs" class="nav nav-pills nav-justified" role="tablist" data-tabs="tabs">
+                                <li class="active" style=""><a href="#All" data-toggle="tab" aria-expanded="true">All</a></li>
+                                <li class="" style=""><a href="#Modeties" data-toggle="tab" aria-expanded="false">Modeties</a></li>
+                                <li class="" style=""><a href="#People" data-toggle="tab" aria-expanded="false">People</a></li>
+                                <li class="" style=""><a href="#Hashtags" data-toggle="tab" aria-expanded="false">Hashtags</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="All">
+                                    <ul class="search-all">
+                                        <li>
+                                            <h4>Modeties</h4>
+                                            <div class="search-modities">
+                                                <img src="assets/images/search1.png" alt="modities" />
+                                                <span class="search-modities_title">Women Makeup</span>
+                                            </div>
+                                            <div class="search-modities">
+                                                <img src="assets/images/search2.png" alt="modities" />
+                                                <span class="search-modities_title">Women Makeup</span>
+                                            </div>
+                                            <div class="search-modities">
+                                                <img src="assets/images/search3.png" alt="modities" />
+                                                <span class="search-modities_title">Women Makeup</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h4>People</h4>
+                                            <div class="search-people">
+                                                <img src="assets/images/people1.png" alt="people" />
+                                            </div>
+                                            <div class="search-people">
+                                                <img src="assets/images/people2.png" alt="people" />
+                                            </div>
+                                            <div class="search-people">
+                                                <img src="assets/images/people1.png" alt="people" />
+                                            </div>
+                                            <div class="search-people">
+                                                <img src="assets/images/people2.png" alt="people" />
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h4>Hashtags</h4>
+                                            <div class="search-hashtags">
+                                                 <img src="assets/images/people1.png" alt="people" />
+                                                 <span class="hashtags">#</span>  
+                                            </div>
+                                            <div class="search-hashtags">
+                                                 <img src="assets/images/people2.png" alt="people" />
+                                                 <span class="hashtags">#</span>  
+                                            </div>
+                                            <div class="search-hashtags">
+                                                 <img src="assets/images/people1.png" alt="people" />
+                                                 <span class="hashtags">#</span>  
+                                            </div>
+                                            <div class="search-hashtags">
+                                                 <img src="assets/images/people2.png" alt="people" />
+                                                 <span class="hashtags">#</span>  
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="Modeties">
+                                    <ul class="search-all">
+                                        <li>
+                                            <h4>Modeties</h4>
+                                            <div class="search-modities">
+                                                <img src="assets/images/search1.png" alt="modities" />
+                                                <span class="search-modities_title">Women Makeup</span>
+                                            </div>
+                                            <div class="search-modities">
+                                                <img src="assets/images/search2.png" alt="modities" />
+                                                <span class="search-modities_title">Women Makeup</span>
+                                            </div>
+                                            <div class="search-modities">
+                                                <img src="assets/images/search3.png" alt="modities" />
+                                                <span class="search-modities_title">Women Makeup</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="People">
+                                    <ul class="search-all">
+                                        <li>
+                                            <h4>People</h4>
+                                            <div class="search-people">
+                                                <img src="assets/images/people1.png" alt="people" />
+                                            </div>
+                                            <div class="search-people">
+                                                <img src="assets/images/people2.png" alt="people" />
+                                            </div>
+                                            <div class="search-people">
+                                                <img src="assets/images/people1.png" alt="people" />
+                                            </div>
+                                            <div class="search-people">
+                                                <img src="assets/images/people2.png" alt="people" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="Hashtags">
+                                    <ul class="search-all">
+                                        <li>
+                                            <h4>Hashtags</h4>
+                                            <div class="search-hashtags">
+                                                 <img src="assets/images/people1.png" alt="people" />
+                                                 <span class="hashtags">#</span>  
+                                            </div>
+                                            <div class="search-hashtags">
+                                                 <img src="assets/images/people2.png" alt="people" />
+                                                 <span class="hashtags">#</span>  
+                                            </div>
+                                            <div class="search-hashtags">
+                                                 <img src="assets/images/people1.png" alt="people" />
+                                                 <span class="hashtags">#</span>  
+                                            </div>
+                                            <div class="search-hashtags">
+                                                 <img src="assets/images/people2.png" alt="people" />
+                                                 <span class="hashtags">#</span>  
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="trending.html">Trending</a></li>
+                            <li><a href="top-list.html">Top</a></li>
+                            <li><a class="post" href="#" data-toggle="modal" data-target="#post_modal">Post</a></li>
+                            <li class="user user-menu">
+                                <a href="myprofile-view.html">
+                                    <img src="assets/images/user.png" class="user-image" alt="User Image" />
+                                    <span>Alexa Smith</span>
+                                </a>
+                            </li>
+                            <li class="dropdown header-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-bell-o"></i>
+                                    <span class="label label-primary">9+</span>
+                                </a>
+
+                                <ul class="dropdown-menu notification-menu">
+                                    <li class="header">Notification</li>
+                                    <li>
+                                        <div class="notification-wrap">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img src="assets/images/user1.png" class="user-image" alt="User Image" />
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Gomaze <small>25min ago</small></h4>
+                                                    <span>Comment on your post “ Women Makeup” </span>
+                                                    <p>Vivamus id libero id massa commodo sodales.</p>
+                                                    <p>Pellentesque gravida iaculis mauris in condimentum.</p>
+                                                    <div class="category">
+                                                        <img src="assets/images/profile1.png" alt="profile1" />
+                                                        <img src="assets/images/profile2.png" alt="profile2" />
+                                                        <img src="assets/images/profile3.png" alt="profile3" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="notification-wrap">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img src="assets/images/user1.png" class="user-image" alt="User Image" />
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Rose Marry <small>25min ago</small></h4>
+                                                    <span>Started Following you. </span>
+                                                </div>
+                                                <div class="media-right">
+                                                    <a href="#" class="follow">Follow</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="notification-wrap">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img src="assets/images/user1.png" class="user-image" alt="User Image" />
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Gomaze <small>25min ago</small></h4>
+                                                    <span>Like your post & Comment on posts</span>
+                                                    <p>Vivamus id libero id massa commodo sodales.</p>
+                                                    <p>Pellentesque gravida iaculis mauris in condimentum.</p>
+                                                </div>
+                                                <div class="media-right">
+                                                    <a href="#"><img src="assets/images/profile4.png" alt="profile4" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="footer"><a href="#">View All Notifications</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="dropdown header-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="assets/images/icons/Side-Menu.png" alt="Side-Menu" />
+                                </a>
+                                <ul class="dropdown-menu setting-menu">
+                                    <li>
+                                        <a href="promote-post.html">
+                                            <img src="assets/images/icons/megaphone.png" alt="megaphone" /> Promote your Post
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">
+                                            <img src="assets/images/icons/information.png" alt="information" /> About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-and-condition.html">
+                                            <img src="assets/images/icons/pad.png" alt="pad" /> Terms and Condition
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="account-setting.html">
+                                            <img src="assets/images/icons/settings.png" alt="settings" /> Account Settings
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/images/icons/logout.png" alt="logout" /> Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+<div class="newsfeeds-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="newsfeeds-container">
+                <div class="newsfeeds_top">
+                    <div class="media media-left-wrap">
+                        <div class="media-left">
+                            <div class="newsfeeds-media-bg"></div>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Alexa Smith</h4>
+                        </div>
+                    </div>
+                    <div class="media media-right-wrap">
+                        <div class="media-body">
+                            <h4 class="media-heading">12/03/2019</h4>
+                            <span class="status">Hair Style</span>
+                        </div>
+                        <div class="media-right dropdown Report-dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/images/icons/Ellipse2.png" alt="ellipse" class="dropdown-report" />
+                            </a>
+                            
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" data-toggle="modal" data-target="#report-post">
+                                    Report This Post
+                                </a>
+                            </li>
+                        </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="newsfeeds_content">
+                    <div class="newsfeeds-user-img"></div>
+                    <div class="news-desc">
+                        <p>Hair Style Pellentesque habitant morbi tristique senectus et netus et malesuad turpis egestas. Vivamus tincidunt pulvinar consequat. Morbi pellentesque lobortis placerat. Praesent ut nisl. Curabitur non odio id tellus egestas convallis id eu quam. Nam feugiat, mauris at congue varius, quam turpis pretium eros, quis porttitor enim lorem quis dui. Aliquam pellentesque a risus quis rutrum.</p>
+                    </div>
+                </div>
+                <div class="newsfeeds_bottom">
+                    <a href="#">
+                        <span class="quantity">340</span>
+                        <img src="assets/images/icons/needle_and_thread.png" alt="needle" class="img-fluid" />
+                    </a>
+                    <a href="#">
+                        <span class="quantity">140</span>
+                        <img src="assets/images/icons/opened-scissors.png" alt="scissors" class="img-fluid" />
+                    </a>
+                    <a href="#">
+                        <span class="quantity">290</span>
+                        <i class="fa fa-commenting" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="share">
+                        <span class="quantity"></span>
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <form class="add-comment" method="post">
+                    <div class="form-group">
+                        <textarea rows="3" class="form-control" id="add_cmnt" placeholder="Add a Comment....."></textarea>
+                    </div>
+                    <button type="submit" class="post">Post</button>
+                </form>
+                <div class="comment-section">
+                    <ul>
+                        <li>
+                            <div class="comment-wrap">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <div class="hero-bg"></div>
+                                    </div>
+                                    <div class="media-body">
+                                        <span>Alexa Gomaze </span>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac <br />
+                                            turpis egestas. Vivamus tincidunt pulvinar consequat. </p>
+                                        
+                                        <div class="comment-action">
+                                        <a href="#">
+                                            <img src="assets/images/icons/needle_and_thread.png" alt="needle" class="img-fluid" />
+                                        </a>
+                                        <a href="#">
+                                            <img src="assets/images/icons/opened-scissors.png" alt="scissors" class="img-fluid" />
+                                        </a>
+                                        <a href="#" class="commnet-rep">Reply</a>
+                                        <a href="#" class="commnet-rep">Report</a>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comment-wrap">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <div class="hero-bg"></div>
+                                    </div>
+                                    <div class="media-body">
+                                        <span>Alexa Gomaze </span>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac <br />
+                                            turpis egestas. Vivamus tincidunt pulvinar consequat. </p>
+                                        
+                                        <div class="comment-action">
+                                        <a href="#">
+                                            <img src="assets/images/icons/needle_and_thread.png" alt="needle" class="img-fluid" />
+                                        </a>
+                                        <a href="#">
+                                            <img src="assets/images/icons/opened-scissors.png" alt="scissors" class="img-fluid" />
+                                        </a>
+                                        <a href="#" class="commnet-rep">Reply</a>
+                                        <a href="#" class="commnet-rep">Report</a>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comment-wrap">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <div class="hero-bg"></div>
+                                    </div>
+                                    <div class="media-body">
+                                        <span>Alexa Gomaze </span>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac <br />
+                                            turpis egestas. Vivamus tincidunt pulvinar consequat. </p>
+                                        
+                                        <div class="comment-action">
+                                        <a href="#">
+                                            <img src="assets/images/icons/needle_and_thread.png" alt="needle" class="img-fluid" />
+                                        </a>
+                                        <a href="#">
+                                            <img src="assets/images/icons/opened-scissors.png" alt="scissors" class="img-fluid" />
+                                        </a>
+                                        <a href="#" class="commnet-rep">Reply</a>
+                                        <a href="#" class="commnet-rep">Report</a>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="lds-default">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-left">
+                © 2019 MODITIES
+            </div>
+            <div class="footer-right">
+                <div class="footer-links">
+                    <a href="about.html">About</a>
+                    <a href="terms-and-condition.html">Terms & Condition</a>
+                </div>
+
+                <div class="social-networks">
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/js/jquery.min.js"></script>
+
+<!-- Include Date Range Picker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Include js plugin -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
+
+
+<!-- post modal-->
+<div class="modal modities_modal fade" id="post_modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <h4 class="modal-title" id="modalLabel2">Enter your Fashion World!</h4>
+                    <div class="col-md-6">
+                        <a href="#">
+                            <div class="post-image">
+                                <h2>Image</h2>
+                            </div>
+                            <div class="round">
+                                <input type="checkbox" id="checkbox12" />
+                                <label for="checkbox12"></label>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#">
+                            <div class="post-text">
+                                <h2>Text</h2>
+                            </div>
+                            <div class="round">
+                                <input type="checkbox" id="checkbox13" />
+                                <label for="checkbox13"></label>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--post-text modal-->
+<!--
+<div id="post-text" class="modal follow-modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+         Modal content
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="media">
+                    <div class="media-left">
+                        <div class="media-bg media-object1"></div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Rose Marry</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+
+<!--signin modal-->
+<div id="signin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body modal-bg">
+                <form name="info_form" class="form_style" action="#" method="post">
+                    <img class="signin-form-logo" src="assets/images/logo.png" alt="logo" />
+                    <span class="form-title">
+                        Welcome Back to Modeties!
+                    </span>
+                    <span class="form-desc">
+                        The Social Media for Fashion
+                    </span>
+                    <span class="form-sub_title">
+                        Log in to your Account
+                    </span>
+
+                    <div class="form-group">
+                        <label for="name">Username/ Email</label>
+                        <input type="text" placeholder="Alexa@fashion inspiration" class="form-control">
+                        <span class="icon"><img src="assets/images/icons/user-icon.png" alt=""></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password</label>
+                        <input type="password" placeholder="*******" class="form-control">
+                        <span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>
+                    </div>
+
+                    <div class="remember_forget">
+                        <input type="checkbox" id="fruit1" name="fruit-1" value="Strawberry" checked="">
+                        <label for="fruit1">Remember Me</label>
+                        <label for="forget-passwrd"><a href="#" class="Forgot_pass" data-dismiss="modal" data-toggle="modal" data-target="#forget-pswd">Forgot Password?</a></label>
+                    </div>
+                    <button type="submit" class="sign signin">Sign in</button>
+                </form>
+                <div class="login-media">
+                    <span class="social_m_title">Or Continue With Social Media </span>
+                    <ul class="login-type">
+                        <li>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                    <span class="social_m_title">Need an account ? <a href="#" class="signup_now" data-dismiss="modal" data-toggle="modal" data-target="#signup">Sign up Now</a></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<!--signup modal-->
+
+<div id="signup" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body modal-bg">
+                <form name="info_form" class="form_style" action="#" method="post">
+                    <img class="signin-form-logo" src="assets/images/logo.png" alt="logo" />
+                    <span class="form-title">
+                        Welcome to Modeties!
+                    </span>
+                    <span class="form-desc">
+                        The Social Media for Fashion
+                    </span>
+                    <span class="form-sub_title">
+                        Sign-up on to Outfit Inspiration
+                    </span>
+
+                    <div class="form-group">
+                        <label for="Username">Username</label>
+                        <input type="text" placeholder="Alexa@fashion inspiration" class="form-control">
+                        <span class="icon"><img src="assets/images/icons/user-icon.png" alt=""></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Fullname">Full Name</label>
+                        <input type="text" placeholder="Alexa Smith" class="form-control">
+                        <span class="icon"><img src="assets/images/icons/username-icon.png" alt="user-icon" /></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Username">Gender</label>
+                        <select class="form-control">
+                            <option>Select Option</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                        <span class="icon"><img src="assets/images/icons/arrow-down-icon.png" alt="arrow-icon" /></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="text" placeholder="fashion123@alexa.com" class="form-control">
+                        <span class="icon"><img src="assets/images/icons/email-icon.png" alt="email-icon" /></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password</label>
+                        <input type="password" placeholder="*******" class="form-control">
+                        <span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>
+                    </div>
+
+                    <button type="submit" class="sign signup">Sign up</button>
+                </form>
+                <div class="login-media">
+                    <span class="social_m_title">Or Continue With Social Media </span>
+                    <ul class="login-type">
+                        <li>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                    <span class="social_m_title">Already have an account ? <a href="#signin" class="login_now" data-dismiss="modal" data-toggle="modal" data-target="#signin">Log in</a></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--forget-pswd modal-->
+<div id="forget-pswd" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body modal-bg">
+                <form name="info_form" class="form_style forget-form" action="#" method="post">
+                    <span class="form-title">
+                        Forgot Password
+                    </span>
+                    <span class="form-desc">
+                        Please provide your to receive a password reset Email!
+                    </span>
+
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="text" placeholder="Alexa@fashion inspiration" class="form-control">
+                        <span class="icon"><img src="assets/images/icons/user-icon.png" alt=""></span>
+                    </div>
+
+                    <button type="submit" class="sign submit">Submit</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- edit feedmanage-preference modal -->
+<div class="modal modities_modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="edit-modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                </button>
+                <h4 class="modal-title" id="modalLabel">Edit What You Follow</h4>
+                <button type="button" class="Done" data-dismiss="modal">
+                    Done
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="edit-topbar">
+                    <div class="edit-heading">
+                        <h2>Gender</h2>
+                    </div>
+                    <div class="gender-options">
+                        <a href="#"><img src="assets/images/Male-Fashion.png" alt="male" /></a>
+                        <a href="#"><img src="assets/images/Female-Fashion.png" alt="male" /></a>
+                        <a href="#"><img src="assets/images/Unisex-Fashion.png" alt="male" /></a>
+
+                    </div>
+                </div>
+                <div class="edit-topbar">
+                    <div class="edit-heading">
+                        <h2>Modeties</h2>
+                    </div>
+                    <div class="owl-carousel owl-theme modities-list">
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities1.png" alt="modities" />
+                                <div class="modities-title">Women Makeup</div>
+                                <div class="modities-sub_title">Best Natural Makeup <br /> Ideas</div>
+                            </div>
+
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities2.png" alt="modities" />
+                                <div class="modities-title">Beard styles</div>
+                                <div class="modities-sub_title">Best Beard Style <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities3.png" alt="modities" />
+                                <div class="modities-title">Men Casual Style</div>
+                                <div class="modities-sub_title">Best Casual Dress <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities4.png" alt="modities" />
+                                <div class="modities-title">Women Wear Style</div>
+                                <div class="modities-sub_title">Best Idea for women <br /> Outfit</div>
+                            </div>
+                            <a href="#" class="follow">follow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities3.png" alt="modities" />
+                                <div class="modities-title">Men Casual Style</div>
+                                <div class="modities-sub_title">Best Casual Dress <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities2.png" alt="modities" />
+                                <div class="modities-title">Beard styles</div>
+                                <div class="modities-sub_title">Best Beard Style <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities4.png" alt="modities" />
+                                <div class="modities-title">Women wear Style</div>
+                                <div class="modities-sub_title">Best Idea for women <br /> Outfit</div>
+                            </div>
+                            <a href="#" class="follow">follow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities1.png" alt="modities" />
+                                <div class="modities-title">Women Makeup</div>
+                                <div class="modities-sub_title">Best Natural Makeup <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="follow">follow</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="edit-topbar people_follow">
+                    <div class="edit-heading">
+                        <h2>People you follow</h2>
+                    </div>
+                    <div class="owl-carousel owl-theme modities-list">
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities5.png" alt="modities" />
+                                <div class="modities-title">Women Makeup</div>
+                                <div class="modities-sub_title">Best Natural Makeup <br /> Ideas</div>
+                            </div>
+
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities6.png" alt="modities" />
+                                <div class="modities-title">Outfit Ove 50</div>
+                                <div class="modities-sub_title">Best Outfits Style <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="follow">follow</a>
+                        </div>
+
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities7.png" alt="modities" />
+                                <div class="modities-title">Men Hair style</div>
+                                <div class="modities-sub_title">Best Hairstyle <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities8.png" alt="modities" />
+                                <div class="modities-title">Beard styles</div>
+                                <div class="modities-sub_title">Best Beard Style <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="follow">follow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities7.png" alt="modities" />
+                                <div class="modities-title">Women Makeup</div>
+                                <div class="modities-sub_title">Best Natural Makeup <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities5.png" alt="modities" />
+                                <div class="modities-title">Women Makeup</div>
+                                <div class="modities-sub_title">Best Natural Makeup <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities8.png" alt="modities" />
+                                <div class="modities-title">Women Makeup</div>
+                                <div class="modities-sub_title">Best Natural Makeup <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="unfollow">Unfollow</a>
+                        </div>
+                        <div class="item">
+                            <div class="modities-item">
+                                <img src="assets/images/modities7.png" alt="modities" />
+                                <div class="modities-title">Women Makeup</div>
+                                <div class="modities-sub_title">Best Natural Makeup <br /> Ideas</div>
+                            </div>
+                            <a href="#" class="follow">follow</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--upload-profile modal-->
+<div id="upload-img_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="upload-profile-wrap">
+                
+                        <img src="assets/images/upload-img.png" alt="dp" class="img-fluid" />
+                 
+                </div>
+                <button type="submit" class="upload-picture">Upload photo from the device </button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--Edit-profile modal-->
+<!--
+<div id="Edit-Profile" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+         Modal content
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <span class="body-title">
+                    Change Profile Picture!
+                </span>
+                <div class="avatar">
+                    <div class="logoContainer">
+                        <img src="assets/images/dp1.png" alt="dp">
+                    </div>
+                </div>
+                <button type="submit" class="save-picture">Save profile Picture</button>
+                <button type="submit" class="cancel" data-dismiss="modal" aria-label="Close">Cancel</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+-->
+
+
+<!--otheruserprofile-block modal-->
+<div id="block-user" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body modal-bg">
+                <span class="body-sub-title">
+                    If you block this user you will not be able to see the content of the user
+                </span>
+                <div class="other-profile_action">
+                    <button type="submit" class="block-otheruser">Block</button>
+                    <button type="submit" class="cancel-otheruser" data-dismiss="modal" aria-label="Close">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--otheruserprofile-report modal-->
+<div id="report-user" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body modal-bg">
+                <span class="body-sub-title">
+                    Are you sure you want to report this user?
+                </span>
+                <div class="other-profile_action">
+                    <button type="submit" class="block-otheruser">Yes</button>
+                    <button type="submit" class="cancel-otheruser" data-dismiss="modal" aria-label="Close">No</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--My-followers modal-->
+<div id="My-followers" class="modal follow-modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <span class="body-sub-title">
+                    Followers List
+                </span>
+                <ul>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object1"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rose Marry</h4>
+                                <p>4 Posts . 832 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object2"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Gulliver Hann</h4>
+                                <p>133 Posts . 1.6k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object3"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Sara Jhon Taker</h4>
+                                <p>8 Posts . 27.7k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object4"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Iwin Sonz</h4>
+                                <p>11 Posts . 32 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object5"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Racheal Ronn</h4>
+                                <p>67 Posts . 733 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object1"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rose Marry</h4>
+                                <p>4 Posts . 832 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object2"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Gulliver Hann</h4>
+                                <p>133 Posts . 1.6k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object3"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Sara Jhon Taker</h4>
+                                <p>8 Posts . 27.7k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--My-following modal-->
+<div id="My-following" class="modal follow-modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <span class="body-sub-title">
+                    Following List
+                </span>
+                <ul>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object1"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rose Marry</h4>
+                                <p>4 Posts . 832 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object2"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Gulliver Hann</h4>
+                                <p>133 Posts . 1.6k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object3"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Sara Jhon Taker</h4>
+                                <p>8 Posts . 27.7k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object4"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Iwin Sonz</h4>
+                                <p>11 Posts . 32 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object5"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Racheal Ronn</h4>
+                                <p>67 Posts . 733 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object1"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rose Marry</h4>
+                                <p>4 Posts . 832 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object2"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Gulliver Hann</h4>
+                                <p>133 Posts . 1.6k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object3"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Sara Jhon Taker</h4>
+                                <p>8 Posts . 27.7k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="following">Following</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--My-followers modal-->
+<div id="other-followers" class="modal follow-modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <span class="body-sub-title">
+                    Followers List
+                </span>
+                <ul>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object1"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rose Marry</h4>
+                                <p>4 Posts . 832 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object2"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Gulliver Hann</h4>
+                                <p>133 Posts . 1.6k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object3"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Sara Jhon Taker</h4>
+                                <p>8 Posts . 27.7k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object4"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Iwin Sonz</h4>
+                                <p>11 Posts . 32 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object5"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Racheal Ronn</h4>
+                                <p>67 Posts . 733 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object1"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rose Marry</h4>
+                                <p>4 Posts . 832 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object2"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Gulliver Hann</h4>
+                                <p>133 Posts . 1.6k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object3"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Sara Jhon Taker</h4>
+                                <p>8 Posts . 27.7k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object4"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Iwin Sonz</h4>
+                                <p>11 Posts . 32 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object5"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Racheal Ronn</h4>
+                                <p>67 Posts . 733 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--My-following modal-->
+<div id="other-following" class="modal follow-modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <span class="body-sub-title">
+                    Following List
+                </span>
+                <ul>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object1"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rose Marry</h4>
+                                <p>4 Posts . 832 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object2"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Gulliver Hann</h4>
+                                <p>133 Posts . 1.6k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object3"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Sara Jhon Taker</h4>
+                                <p>8 Posts . 27.7k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object4"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Iwin Sonz</h4>
+                                <p>11 Posts . 32 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object5"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Racheal Ronn</h4>
+                                <p>67 Posts . 733 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object1"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Rose Marry</h4>
+                                <p>4 Posts . 832 Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object2"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Gulliver Hann</h4>
+                                <p>133 Posts . 1.6k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media-left">
+                                <div class="media-bg media-object3"></div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Sara Jhon Taker</h4>
+                                <p>8 Posts . 27.7k Followers</p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="follow">Follow</a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--deactivate-account modal-->
+<div id="deactivate-account" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <span class="body-sub-title">
+                    Are you sure you want to deactivate your account?
+                </span>
+                <div class="other-profile_action">
+                    <button type="submit" class="deactivate-account">Deactivate</button>
+                    <button type="submit" class="cancle-deactivate" data-dismiss="modal" aria-label="Close">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--otheruserprofile-block modal-->
+<div id="report-post" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body modal-bg">
+                <span class="body-sub-title">
+                    Are you sure want to report this post?
+                </span>
+                <div class="other-profile_action">
+                    <button type="submit" class="cancel-post" data-dismiss="modal" aria-label="Close">Cancel</button>
+                    <button type="submit" class="report-post">Report</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--Delect chat modal-->
+<div id="delete-chat" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body modal-bg">
+                <span class="body-sub-title">
+                    Are you sure want to delete the conversation ?
+                </span>
+                <div class="other-profile_action">
+                    <button type="submit" class="block-otheruser">Yes</button>
+                    <button type="submit" class="cancel-otheruser" data-dismiss="modal" aria-label="Close">No</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+
+</html>

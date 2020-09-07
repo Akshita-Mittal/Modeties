@@ -1,0 +1,481 @@
+  <?php 
+    /*  Template Name: Our Service */
+   get_header(); ?>
+  <div id="landlord-srvc-page" class="page-in">
+            <section id="landlord-srvc">
+                <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="landlord-srvc-l text-center">
+                           <div class="landlord-srvc-h">
+                            <h1><?php echo get_field('service_title'); ?></h1>
+                            <p>
+<?php echo get_field('service_short_description'); ?>
+                            </p>
+                            </div>
+                             <div class="landlord-srvc-ul">
+                                <ul>
+                                    <li><a href="#landlord-srvc1">FREE CONSULTATION</a></li>
+                                    <li><a href="#landlord-srvc2">TENANT FIND</a></li>
+                                    <li><a href="#landlord-srvc3">FULL MANAGEMENT</a></li>
+                                    <li><a href="#landlord-srvc4">GUARANTEED RENT</a></li>
+                                    <li><a href="#landlord-srvc5">SINGLE TENANCIES</a></li>
+                                </ul>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                </div>
+            </section>
+            <section id="landlord-srvc1">
+                <div class="container">
+                   <div class="row">
+                    <div class="col-sm-12">
+                        <div class="landlord-srvc-l text-center">
+                           <div class="landlord-srvc-h">
+                            <h1><?php echo get_field('free_consultation_title'); ?>
+</h1>
+  <p>
+<?php echo get_field('free_consultation_description'); ?>  
+ </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="landlord-srvc2">
+                <div class="container">
+                   <div class="row">
+                    <div class="col-sm-12">
+                        <div class="landlord-srvc-l text-center">
+                           <div class="landlord-srvc-h">
+                            <h1><?php echo get_field('tenant_find_service_title'); ?>  </h1>
+                            <p>
+<?php echo get_field('tenant_find_service_short_description'); ?>    
+                             </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    </div>
+                    <div class="row">
+                         <?php 
+        if( have_rows('tent_find_repeter') ):  
+	 while( have_rows('tent_find_repeter') ): the_row(); 
+ 	 $tentitle = get_sub_field(' tent_find_title');
+         $tentfindimage = get_sub_field('tent_find_image');
+        $tentdescriptiopn = get_sub_field('tent_find_description');
+
+        ?>
+                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5><?php echo $tentitle; ?></h5>
+                                    </div>
+                                    <div class="lsrvc-p">
+                                        <p>
+<?php echo $tentdescriptiopn; ?>  
+                                        </p>
+                                    </div>
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo $tentfindimage; ?>" alt="">
+                                    </div>
+                                </div>
+                        </div>
+         <?php endwhile; ?>
+       <?php endif; ?> 
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT VIEWINGS</h5>
+                                    </div>
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon1/2.png" alt="">
+                                    </div>
+                                </div>
+                        </div>-->
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT REFERENCING</h5>
+                                    </div>
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon1/3.png" alt="">
+                                    </div>
+                                </div>
+                        </div>-->
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANCY AGREEMENTS</h5>
+                                    </div>
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon1/4.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT CHECK IN</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon1/5.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT INVENTORIES</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                       <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon1/6.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>RECEIPT OF INITIAL RENT AND DEPOSIT</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon1/7.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <section id="landlord-srvc3">
+                <div class="container">
+                   <div class="row">
+                    <div class="col-sm-12">
+                        <div class="landlord-srvc-l text-center">
+                           <div class="landlord-srvc-h">
+                            <h1><?php echo get_field('full_managment_title'); ?>  </h1>
+                            <p>
+<?php echo get_field('full_management_short_description'); ?>                              </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                    
+                    </div>
+                   
+                    <div class="row">
+         <?php 
+        if( have_rows('full_management_repetear') ):  
+	 while( have_rows('full_management_repetear') ): the_row(); 
+ 	 $fulltitle = get_sub_field('full_management_title');
+         $fullmanagement = get_sub_field('full_management_description');
+        $fullimage = get_sub_field('full_management_image');
+
+        ?>
+                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5><?php echo $fulltitle; ?></h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            <?php echo $fullmanagement; ?>
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo $fullimage; ?>" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>
+                          <?php endwhile; ?>
+       <?php endif; ?>  
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT ADVERTISING</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="img/landlord/serviceicon2/2.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT VIEWINGS</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon2/3.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT REFERENCING</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon2/4.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANCY AGREEMENTS</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon2/5.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT CHECK IN</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon2/6.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>-->
+                        
+<!--                        <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>TENANT INVENTORIES</h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                       <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon2/7.png" alt="">
+                                    </div>
+                                 </div>
+                        </div>-->
+                   
+                        
+                    </div>
+                </div>
+            </section>
+             <section id="landlord-srvc4">
+                <div class="container">
+                   <div class="row">
+                    <div class="col-sm-12">
+                        <div class="landlord-srvc-l text-center">
+                           <div class="landlord-srvc-h">
+                           <div class="img-g">
+                               <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/guarantee-logo.png" alt="">
+                           </div>
+                           
+                            <h1><?php echo get_field('guaranteed_rent_title'); ?></h1>
+                            <p>
+<?php echo get_field('guaranteed_rent_short_description'); ?>   
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="clearfix"></div>
+                     </div>
+                     <div class="row">
+                              <?php 
+        if( have_rows('guaranteed_rent_repeater') ):  
+	 while( have_rows('guaranteed_rent_repeater') ): the_row(); 
+ 	 $guarantendtitle = get_sub_field('guaranteed_rent_title');
+         $guaranteedrentdescription = get_sub_field('guaranteed_rent_description');
+           $guaranteedimageicon = get_sub_field('guaranteed_rent_image_icon');
+        ?>
+                         <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5><?php echo $guarantendtitle; ?></h5>
+                                    </div>
+
+                                    <div class="lsrvc-p">
+                                        <p>
+                                          <?php echo $guaranteedrentdescription; ?>
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="lsrvc-icon">
+                                        <img src="<?php echo $guaranteedimageicon; ?>" alt="">
+                                    </div>
+                                    
+                                </div>
+                        </div>
+        <?php endwhile; ?>
+       <?php endif; ?>  
+                        
+                        
+                        
+                       
+<!--                          <div class="col-sm-6">
+                                <div class="lsrvc-i">
+                                    <div class="lsrvc-h5">
+                                        <h5>MAINTENANCE COSTS COVERED</h5>
+                                    </div>
+                                     <div class="lsrvc-p">
+                                        <p>
+                                            Fruitcake pastry sugar plum sugar plum gummi bears. Chocolate bar chocolate pudding sweet chupa chups dragée carrot cake. Croissant cookie danish. Halvah 
+pastry lollipop chupa chups jujubes muffin. 
+                                        </p>
+                                    </div>
+                                     <div class="lsrvc-icon">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/landlord/serviceicon3/4.png" alt="">
+                                    </div>
+                                </div>
+                        </div>-->
+                     </div>
+                </div>
+            </section>
+             <section id="landlord-srvc5">
+                <div class="container">
+                   <div class="row">
+                    <div class="col-sm-12">
+                        <div class="landlord-srvc-l text-center">
+                           <div class="landlord-srvc-h">
+                               <h1><?php echo get_field('single_tenancies_title'); ?></h1>
+                            <p>
+<?php echo get_field('single_tenancies_description'); ?>                            </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="clearfix"></div>
+                     </div>
+                 </div>
+            </section>
+
+                <section id="landlord-srvc5">
+                <div class="container">
+                   <div class="row">
+                    <div class="col-sm-12">
+                        <div class="landlord-srvc-l text-center">
+                           <div class="landlord-srvc-h">
+                               <h1><?php echo get_field('heading_whole_falts_section'); ?></h1>
+                            <p>
+                         <?php echo get_field('whole_sale_falts_descriptions'); ?>
+                          </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="clearfix"></div>
+                     </div>
+                 </div>
+            </section>
+         </div>
+        <?php get_footer(); ?>
